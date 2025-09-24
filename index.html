@@ -184,7 +184,7 @@
 
     async function testDownload() {
       const fileSize = 10 * 1024 * 1024; // 10 MB
-      const url = 'https://speed.hetzner.de/10MB.bin?_=' + Date.now();
+      const url = 'netlify/functions/download.js' + Date.now();
       const start = performance.now();
 
       try {
